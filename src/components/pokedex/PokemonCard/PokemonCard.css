@@ -1,0 +1,55 @@
+    .pokemon-card-grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 600px;
+    float: left;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 15px;
+    background-color: darkcyan;
+    border: 1px rgba(136, 90, 136, 0.667) solid;
+    box-shadow: 1px 1px 2px 1px darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+
+  }
+  
+  .pokemon-card p {
+    font-weight: bold;
+  }
+  
+  .pokemon-car_img img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-card_title {
+    font-size: 24px;
+    margin-bottom: 3px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pokemon-card_item {
+    margin-bottom: 5px;
+  }
+  
+  .pokemon-card_item span {
+    margin-left: 5px;
+  }
+  
+  .pokemon-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
