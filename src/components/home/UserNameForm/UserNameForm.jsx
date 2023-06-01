@@ -14,12 +14,12 @@ export const UserNameForm = ({ onSendName }) => {
     if (!hasInputAlreadyTouched.current)
      hasInputAlreadyTouched.current = true;
 
-    if(!nameValue) setNameError("El nombre esta vacio!");
+    if(!nameValue) setNameError("Name is empty!");
 
     else if (/[^a-z ]/i.test(nameValue)) 
-    setNameError("Solo se permiten letras y espacios");
+    setNameError("Only letters and spaces allowed");
     else if (!/^[a-z]{2,} ?$/i.test(nameValue))
-    setNameError("El nombre debe tener minimo 2 letras");
+    setNameError("Name must be at least 2 characters");
     else setNameError("");
 
     setUserNameValue(nameValue)

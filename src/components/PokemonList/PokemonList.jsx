@@ -25,15 +25,16 @@ const [ currentPage, totalPages, pokemonSlice, changePageto ] = usePagination(po
             </li>
             ))}
         </ul>
-
+      <div className="pages">
         <PagesComponents 
         totalPages={totalPages} 
         onChangePage={changePageto} 
         onNextPage={()=>changePageto(currentPage +1)}
         onBackPage={()=>changePageto(currentPage -1)}
          />
-
+         </div>
     </section>
+    
   )
 }
 

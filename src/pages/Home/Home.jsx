@@ -4,6 +4,7 @@ import { UserNameContext } from '../../context/UserNameContext';
 import "./Home.css";
 import { useLocation, useNavigate } from 'react-router-dom';
 import UserNameForm from '../../components/home/UserNameForm/UserNameForm';
+import MyImage from "../../components/MyImage/pokeball.gif"
 
 const Home = () => {
 const navigate = useNavigate();
@@ -29,6 +30,7 @@ const handleSendName = (userNameValue) => {
     <div className='home_form-container'>
       <UserNameForm onSendName={(userNameValue) => handleSendName(userNameValue)} />
     </div>
+    <img className='pokeball_img' src={MyImage} alt="pokeball" />
     </section>
   );
 };

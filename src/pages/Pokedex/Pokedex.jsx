@@ -16,7 +16,7 @@ const Pokedex = () => {
   return (
     <section>
         <p className="pokedex_message">
-            <em className="pokedex_message_username">Welcome {userName}</em>, you will find your favortive pokemon here
+            <em className="pokedex_message_username">Welcome {userName}</em>, you will find your favorite pokemon here
             </p>
         <FilterForm nameInitial={pokemonName} typeInitial={pokemonTypeId} />
     {!pokemons.length ? (

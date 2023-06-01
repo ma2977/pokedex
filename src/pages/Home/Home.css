@@ -4,7 +4,7 @@ body {
     background-size: 100% 100%;
     gap: 5%;
     background-repeat: repeat;
-    opacity: 80%;
+    opacity: 100%;
      }
 
 
@@ -31,4 +31,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.pokeball_img {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
 }
