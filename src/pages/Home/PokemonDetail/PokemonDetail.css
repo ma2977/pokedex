@@ -1,0 +1,16 @@
+.detail_pokemon {
+    background-color: darkcyan;
+    border-style: solid;
+    padding: 25px;
+    margin: 30px;
+    
+}
+.detail_pokemon img{
+    
+}
+.pokemon_detail_title {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+
+}
